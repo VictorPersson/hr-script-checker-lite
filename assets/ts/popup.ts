@@ -10,16 +10,6 @@ const renderStatus = (main: HTMLElement) => {
 
   pagesH4.innerHTML = `✅ The request to Hello Retail succeeded: 200 - OK</span>`;
 
-  /*
-  chrome.storage.local.get(["pagesDiv"], (result) => {
-    if (result.pagesDiv.isPresent) {
-      pagesH4.innerHTML = `✅ Detected Pages div with ID: <span>${result.pagesDiv.id}</span>`;
-      pagesH5.innerHTML = `✅ Supplied data/path: <span>${result.pagesDiv.hierarchies}</span>`;
-    } else {
-      pagesH5.innerText = "No pages div detected on this page";
-    }
-  });
-  */
   statusDiv.appendChild(pagesH4).after(pagesH5);
   main.appendChild(statusDiv);
 };

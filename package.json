@@ -1,9 +1,9 @@
 {
-  "name": "hr-script-checker",
+  "name": "hr-script-checker-lite",
   "version": "1.0.0",
   "description": "Browser extension observing websites for Hello Retail scripts and features",
   "main": "index.js",
-  "repository": "https://github.com/VictorPersson/hr-script-checker.git",
+  "repository": "https://github.com/VictorPersson/hr-script-checker-lite.git",
   "author": "VictorPersson <vp-96@hotmail.com>",
   "license": "MIT",
   "private": false,
