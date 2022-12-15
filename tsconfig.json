@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "outDir": "./assets/dist",
+    "rootDir": "./assets/ts",
+    "target": "ESNext",
+    "skipLibCheck": true,
+    "strict": true,
+    "useUnknownInCatchVariables": false,
+    "types": ["chrome"]
+  },
+  "include": ["./assets/ts/**/*"]
+}

@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Hello Retail script checker lite",
+  "version": "0.001",
+  "description": "Extension for websites using Hello Retail services. Lighter version without more advanced functionality.",
+  "icons": {
+    "128": "images/hello-avatar-round_128.png"
+  },
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"], 
+      "js": ["js/content.js"],
+      "css" : ["css/widget.css"],
+       "run_at": "document_end"
+    }
+],
+  "action": {
+    "default_icon": "images/hr_icon_inactive.png",
+    "default_title": "Hello Retail script checker lite",
+    "default_popup": "html/popup_inactive.html"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+        "mac": "MacCtrl+Shift+F"
+      },
+      "description": "Opens hello.html"
+    }
+  },
+  "permissions": ["tabs", "activeTab", "storage", "scripting", "webRequest"],
+  "host_permissions": ["<all_urls>"]
+}
