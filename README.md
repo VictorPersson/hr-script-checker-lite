@@ -6,7 +6,7 @@ Browser extension scanning websites for [Hello Retail related](https://support.h
 
 ---
 
-#### Open beta out in the [Google chrome store 🎉](https://chrome.google.com/webstore/detail/hello-retail-script-check/khmkoheeoohhleimagbhbjeacjpbbdef/related) 
+#### Open beta out in the [Google chrome store 🎉](https://chrome.google.com/webstore/detail/hello-retail-script-check/khmkoheeoohhleimagbhbjeacjpbbdef) 
 
 ---
 
